@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<definitions targetNamespace="http://www.shehzad.edu/webservice" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+    xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:this="http://www.shehzad.edu/webservice" xmlns="http://schemas.xmlsoap.org/wsdl/"
+    xsi:schemaLocation="http://schemas.xmlsoap.org/wsdl/ http://schemas.xmlsoap.org/wsdl/wsdl.xsd http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd">
+    <types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.shehzad.edu/webservice"  elementFormDefault="qualified">
+            <xs:element name="Input" type="xs:string"/>
+                <xs:complexType name="componentType">
+                <xs:sequence>
+                    <xs:element name="Component" type="xs:string"/>
+                    <xs:element name="Price" type="xs:int"/>
+					<xs:element name="ComponentType" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="ArrayOfComponent">
+                <xs:sequence>
+                    <xs:element name="Component" minOccurs="0" maxOccurs="unbounded" type="this:componentType"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="Result" type="this:ArrayOfComponent"/>
+        </xs:schema>
+    </types>
+    <!-- Input message -->
+    <message name="getComponentRequest">
+        <part name="input"  element="this:Input"/>
+    </message>
+    <!-- End Input message -->
+    <!-- Output message -->
+    <message name="getComponentResponse">
+        <part name="result" element="this:Result"/>
+    </message>
+    <!-- End Output message -->
+    <portType name="ComponentPortType">
+        <operation name="viewComponent">
+            <input message="this:getComponentRequest"/>
+            <output message="this:getComponentResponse"/>
+        </operation>
+    </portType>
+    <binding name="ComponentBinding" type="this:ComponentPortType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="viewComponent">
+            <soap:operation soapAction="http://www.shehzad.edu/webservice" />
+            <input><soap:body use="literal"/></input>
+            <output><soap:body use="literal"/></output>
+        </operation>
+    </binding>
+    <service name="ComponentService">
+        <port name="ComponentPort" binding="this:ComponentBinding">
+            <soap:address location="http://127.0.0.1:8080/Innovate%20By%20Creating/componentSearch/Server.php"/>
+        </port>
+    </service>
+</definitions>

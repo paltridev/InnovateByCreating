@@ -1,0 +1,25 @@
+#shopping-cart{
+    display: block;
+    position: relative;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+#show-cart{
+    margin-right: 5%;
+    display: inline;
+    padding-left: 15px;
+}
+
+#clear-cart{
+    width: 40%;
+    height: 30px;
+    position: sticky;
+    margin-top: 70%;
+    margin-left: 30%;
+}

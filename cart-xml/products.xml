@@ -1,0 +1,182 @@
+<my_products>
+	<product>
+		<id>1</id>
+		<name>AMD RYZEN 3 2200G</name>
+		<price>6000</price>
+		<description>
+			The Ryzen 3 2200G is the successor to the first generation Ryzen 3 1200. This second generation Ryzen CPU has made some big strides, and not just in the CPU department. It offers everything that its predecessor did, and more, all the while coming at the same price tag. It still has the same four physical cores as the 1200 model, although the performance has improved a fair bit due to optimizations. The biggest addition, however, is the integrated Vega 8 graphics chip which simply dwarfs the performance of Intel’s integrated graphics and can even compete with some low-end dedicated graphics cards.
+		</description>
+		<details_link>https://www.amd.com/en/products/apu/amd-ryzen-3-2200g</details_link>
+	</product>
+	<product>
+		<id>2</id>
+		<name>AMD RYZEN 5 2600X</name>
+		<price>8000</price>
+		<description>
+			The Ryzen 5 2600X is the successor to one of the earliest Ryzen models to be released. It delivers a moderate performance boost compared to the older model, but doesn’t introduce any revolutionary new technology. The most notable feature remains the same one that was available with its predecessor: 6 physical cores and 12 logical cores. As such, this CPU offers twice the thread count of its similarly-priced Intel counterpart. Combine that with the relatively high base clock speed, and it becomes clear as to why this CPU is one of the top picks for gaming PCs.
+		</description>
+		<details_link>https://www.amd.com/en/ryzen-5</details_link>
+	</product>
+	<product>
+		<id>3</id>
+		<name>INTEL CORE I3-8100</name>
+		<price>8000</price>
+		<description>
+			The first entry on this list is also the first 8th generation Intel Core i3 CPU in the series. Unlike the previous generation i3 models which were all dual-core processors that relied on hyperthreading as the means of matching quad-core performance, the latest i3 CPUs all have 4 physical cores. This is Intel’s response to AMD’s new Ryzen 3 CPUs which dethroned the previous generation’s i3 processors mid-2017, which is evident from the increased physical core count. All in all, the Core i3-8100 is an excellent entry to mid-range solution for gaming
+		</description>
+		<details_link>https://ark.intel.com/content/www/us/en/ark/products/126688/intel-core-i3-8100-processor-6m-cache-3-60-ghz.html</details_link>
+	</product>
+	<product>
+		<id>4</id>
+		<name>INTEL CORE I5-8600K</name>
+		<price>10000</price>
+		<description>
+			The Core i5 models were gamers’ favorites for a long time, as they did a remarkable job of balancing performance and price. And true enough, the most powerful 8th generation i5 CPU, the i5-8600K, continues this tradition. Much like the i3 models, the i5 ones have also received an upgraded core count compared to the previous generation. Where we previously had 4, we now have 6 physical cores. Of course, it has been upgraded in almost every regard and is one of the most viable mid to high-end gaming processors.
+		</description>
+		<details_link>https://ark.intel.com/content/www/us/en/ark/products/126685/intel-core-i5-8600k-processor-9m-cache-up-to-4-30-ghz.html</details_link>
+	</product>
+	<product>
+		<id>5</id>
+		<name>INTEL CORE I7-8700K</name>
+		<price>12000</price>
+		<description>
+			The i7 CPUs are some of the most powerful desktop processors, and this one is no different. Like the rest of the Intel Core series, the i7 models have also received a core count bump. They have jumped to 6 physical and 12 logical cores, as opposed to the previous generation which has 4 physical and 8 logical cores. Moreover, the i7 CPUs are the only 8th generation Core CPUs to utilize Intel’s hyperthreading technology. Ultimately, i7 processors are intended for demanding users, so they will not leave any gamer disappointed.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/Intel%20Core%20i7-8700K.php</details_link>
+	</product>
+	<product>
+		<id>6</id>
+		<name>MSI B350 Tomahawk</name>
+		<price>15000</price>
+		<description>
+			The B350 Tomahawk adheres to the overall look and feel of MSI's gaming prodcuts, with a black/dark grey body and subtle red lightning, in additional to red LED lightning.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/msib350.php</details_link>
+	</product>
+	<product>
+		<id>7</id>
+		<name>ASUS Prime Z370-A</name>
+		<price>12000</price>
+		<description>
+			The ASUS Prime Z370-A is a powerful motherboard with a non-invasive and sleek designs. The man body is black and white highlights and it has several metallic heatsinks that establish it as a high quality product.The Taiwanese tech giant may be one of the most versatile tech companies in existence today.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/asusprime.php</details_link>
+	</product>
+	<product>
+		<id>8</id>
+		<name>MSI H270 GAMING M3</name>
+		<price>12000</price>
+		<description>
+			The first motherboard comes from MSI, one of the four best established motherboard manufacturers. The model in question is the MSI H270 Gaming M3, an affordable yet powerful and well-designed motherboard
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/MSI.php</details_link>
+	</product>
+	<product>
+		<id>9</id>
+		<name>GIGABYTE X299 AORUS</name>
+		<price>18000</price>
+		<description>
+			The Gigabyte X299 AORUS Ultra Gaming is just as grandiose as its name implies.IT is one of the most advanced and expensive motherboards current on the market. The mian is black and adorned with dark grey patterns
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/gigabyte.php</details_link>
+	</product>
+	<product>
+		<id>10</id>
+		<name>ASUS ROG ZENITH EXTREME</name>
+		<price>25000</price>
+		<description>
+			The RoG Zenith Extreme.Like most gaming motherboards, it is predominantly black in color, with prominent heatsinks and RGB lighting. But the area where this motherboard truly shines is not RGB, but its technical capabilities.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/AsusRog.php</details_link>
+	</product>
+	<product>
+		<id>11</id>
+		<name>G.Skill Trident Z RBG</name>
+		<price>12000</price>
+		<description>
+			G.Skill is perhaps not as well-known as Kingston or Corsair, but that certainly does not make them less reliable. This Taiwanese company specializes in memory-related hardware such as SSDs, flash drives, and RAM, in addition to some gaming peripherals. The product that G.Skill brings us today is the Trident Z RGB, arguably the best-looking solution on this list, all thanks to that metallic exterior and beautifully implemented RGB lighting that you can see above. But of course, you are not buying RAM in order to look at it, so what does the Trident Z offer in practical terms?
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/gskillram.php</details_link>
+	</product>
+	<product>
+		<id>12</id>
+		<name>Kingston Hyper X Fury</name>
+		<price>10000</price>
+		<description>
+		Kingston is one of the longest-standing and most trustworthy names when it comes to any memory-related products, be it hard drives, solid-state drives, RAM, or anything in between. The first entry on this list is coming straight from them, and it is from their gaming-oriented HyperX brand. The HyperX Fury Black series of RAM cards constitutes some of the best and most affordable products in this category that you could possibly get. They are all equipped with sleek heatsinks that are both practical and aesthetic while allowing users a choice between black, red, and white color. That way, these HyperX cards can blend well with almost any gaming rig.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/xfury.php</details_link>
+	</product>
+	<product>
+		<id>13</id>
+		<name>Hyper X Predator</name>
+		<price>16000</price>
+		<description>
+			Kingston’s HyperX brand, although this one is not quite as popular as the Fury Black series. It is, however, definitely a better performer. Meet the HyperX Predator Black. The Predator Black follows a similar design philosophy as the rest of the HyperX RAM cards: a black exterior, built-in heatsink and high overclocking potential. It sports a much more aggressive appearance than other HyperX RAM products, which clearly establishes it as the very peak of the brand’s overclocking game.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/xpredator.php</details_link>
+	</product>
+	<product>
+		<id>14</id>
+		<name>Corsair Vengeance</name>
+		<price>15000</price>
+		<description>
+			Corsair is another company known for their high-performance gaming RAM. The first product in their lineup that we’ll be looking at is the Vengeance LPX series which continues where the previous generation’s DDR3 Vengeance series left off.All of the Corsair Vengeance LPX RAM memory cards have the same exterior design as seen above, although they do come in several color variants, including dark grey, red, blue, and white. This allows for some great versatility when it comes to blending them with other components.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/cvengeance.php</details_link>
+	</product>
+	<product>
+		<id>15</id>
+		<name>Corsair Dominator</name>
+		<price>17000</price>
+		<description>
+			The next product also comes from Corsair, but it is a far cry from your regular gaming RAM cards. In fact, the Corsair Dominator Platinum is truly worthy of its name, as it dominates the high-end RAM market.It is a bit bulkier than the average RAM module, sporting a dark grey exterior and a metal bar on top that can easily be changed and customized. Furthermore, it also comes in two better performing variants: Torque and SE. The former sports a more dynamic color scheme and the latter comes with either a black or chrome exterior.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/Corsairdominator.php</details_link>
+	</product>
+	<product>
+		<id>16</id>
+		<name>Sapphire Radeon NITRO+ RX 570</name>
+		<price>25000</price>
+		<description>
+			Sapphire are often hailed as one of the best Radeon graphics card manufacturers today, so it’s no wonder that one of their products has found its way onto this list: the Sapphire Radeon NITRO+ RX 570. You can tell you’re dealing with a well-made graphics card by the high-quality plastic exterior, its rounded corners, as well as the black-and-white metal backplate which all give it remarkable aesthetic appeal. This is all topped off with an RGB-lit Sapphire logo. It’s not all about the looks, though, as the NITRO+ is equipped with two powerful ball-bearing 95mm fans which were built to last and provide excellent cooling with minimal noise.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/nitro.php</details_link>
+	</product>
+	<product>
+		<id>17</id>
+		<name>ZOTAC GeForce GTX 1060 Ti AMP Extreme Core Edition</name>
+		<price>25000</price>
+		<description>
+			It is a powerful, 2K-capable mid-range GPU. The model we have picked is made by Zotac, the same company who manufactured the GTX 1050 we listed above. Unlike the GTX 1050 Mini, the Zotac GTX 1060 AMP Edition is anything but small. For the most part, the card follows Zotac’s general design philosophy, with a good-looking black and silver cooler, albeit without any sort of backplate. It also utilizes the company’s Icestorm cooling technology which, as they put it, relies on “brute force” as a means of keeping the graphics card at an optimal temperature.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/gtx1060.php</details_link>
+	</product>
+	<product>
+		<id>18</id>
+		<name>MSI Radeon RX 560 AERO</name>
+		<price>22000</price>
+		<description>
+			We will start off with the Radeon RX 560, a very cost-efficient entry-level gaming solution. The specific model comes from the well-known hardware manufacturer MSI, in the form of the Radeon RX 560 AERO. Living up to the “Aero” moniker, this graphics card is light and compact, able to fit into the smallest computer cases or external GPU enclosures. That said, it is not much to look at and the plain exterior will not capture anyone’s eye, but in terms of cost-effectiveness, this little graphics card is unmatched.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/msir550.php</details_link>
+	</product>
+	<product>
+		<id>19</id>
+		<name>GeForce GTX 1050 Mini</name>
+		<price>19000</price>
+		<description>
+			This GPU is relatively on-par with the RX 560, although there are a couple of key differences. The model we have picked is the ZOTAC GTX 1050 Mini, yet another compact graphics card with a single fan that can fit into any case. Not many are likely to find the textured plastic exterior appealing, though, as it looks quite cheap at first glance.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/gtx1050mini.php</details_link>
+	</product>
+	<product>
+		<id>20</id>
+		<name>ZOTAC GeForce GTX 1080 Ti AMP Extreme Core Edition</name>
+		<price>30000</price>
+		<description>
+			we have the most powerful mainstream graphics card of them all: the GTX 1080 Ti. This GPU was designed by Nvidia as a means of taking on 4K gaming. Zotac then packed it into the highly aesthetic and efficient graphics card that we are taking a look at here, ZOTAC GeForce GTX 1080 Ti AMP Extreme Core Edition. In terms of external appearance, this card has all the signature traits of Zotac design: dark grey metal exterior and backplate, complemented with yellow highlights. It is a massive graphics card with a triple-fan cooler which allows you to push this card’s already high limits even further.
+		</description>
+		<details_link>http://127.0.0.1:8080/Innovate%20By%20Creating/php/gtx1080.php</details_link>
+	</product>
+</my_products>
